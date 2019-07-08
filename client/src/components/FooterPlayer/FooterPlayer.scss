@@ -1,0 +1,26 @@
+.footer-player {
+    position: fixed;
+    bottom: 0;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 64px 10px 5px 11px #c7c1c7;
+    background-color: #fff;
+    align-items: center;
+    .song-info {
+        display: flex;
+        align-items: center;
+    }
+    .album-image {
+        display: flex;
+        align-items: center;
+        img {
+            height: 60px;
+        }
+    }
+    .song-information {
+        display: flex;
+        flex-direction: column
+    }
+}
